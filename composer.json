@@ -1,0 +1,18 @@
+{
+    "name": "cursostarde/importadorpg",
+    "description": "Importador de datos desde excel a powerpoint",
+    "autoload": {
+        "psr-4":{
+            "Tarde\\importadorpg\\":"src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jtecoia",
+            "email": "jtecoia@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.28"
+    }
+}
